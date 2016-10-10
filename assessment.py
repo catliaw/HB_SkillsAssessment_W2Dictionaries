@@ -230,6 +230,27 @@ def kids_game(names):
     good solutions here will definitely require a dictionary.
     """
 
+    words_dict = {}
+
+    game_result = []
+
+    for name in names:
+        # if name == names[0]:
+        #     game_result.append(name)
+        #     word_dict[name] = name[-1]
+        # else:
+        word_dict[name] = name[-1]
+
+    # gave this a stab, but I can't figure this out.
+    # I can't figure out if I should store the last letter as the key or value
+    # in the dictionary.
+    # the words need to be added to a list because order matters in this case
+    # And it seems like maybe after a word is added to the game_results list,
+    # it can either be popped off, or can check for membership on the list
+    # Also, I can't figure out how to go about looping the list to find the correct
+    # Letter needed and then taking the last letter for that selected word, then
+    # start looping from the beginning of the list again.
+
     return []
 
 #####################################################################

@@ -205,7 +205,8 @@ def top_chars(phrase):
             chars_counter[letter] = 0
         chars_counter += 1
 
-
+    # Not sure how to go about choosing the key that has the highest value.
+    # How to compare the keys.
 
     return []
 
